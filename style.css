@@ -33,6 +33,12 @@ body {
   padding: 0rem 2.4rem;
 }
 
+.product__cat {
+  font-size: 1.2rem;
+  letter-spacing: 0.4rem;
+  padding: 2.4rem 0 1.2rem 0;
+}
+
 .product__heading,
 .price {
   font-family: "Fraunces", serif;
@@ -42,7 +48,13 @@ body {
 
 .product__heading {
   color: #000;
-  font-size: 2.8rem;
+  font-size: 3.2rem;
+  line-height: 3rem;
+}
+
+.product-intro {
+  line-height: 2.3rem;
+  margin: 1.6rem 0 2.4rem 0;
 }
 
 .price-container {
@@ -71,6 +83,7 @@ body {
   border-style: none;
   color: #fff;
   font-weight: 700;
+  margin: 2rem 0 2.4rem 0;
   padding: 1.4rem;
   width: 100%;
 }
