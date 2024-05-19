@@ -4,21 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Product Preview Card</title>
   </head>
   <body>
-    <main class="main-continer">
-      <picture class="pic_container">
+    <main class="main-container">
+      <picture class="pic-container">
         <img
-          class="card_img"
+          class="card__img"
           src="/Images/image-product-mobile.jpg"
           alt="image of perfume bottle"
         />
       </picture>
       <article class="card-info-container">
-        <header class="header_section">
-          <p class="product_cat">PERFUME</h>
-          <h1 class="product_heading">Gabrielle Essence Eau De Parfum</h1>
+        <header class="header__section">
+          <p class="product__cat">PERFUME</h>
+          <h1 class="product__heading">Gabrielle Essence Eau De Parfum</h1>
         </header>
 
         <section class="product-intro">
@@ -27,12 +30,12 @@
         </section>
 
         <div class="price-container">
-            <p class="price">$149.00</p>
-            <p class="okd_price">$169.99</p>
+            <p class="price">$149.99</p>
+            <p class="old__price"><span class="strike--through">$169.99</span></p>
         </div>
 
         <div class="purchase-container">
-            <button class="buy_btn"><img class="cart_icon" src="/Icons/icon-cart.svg" alt="shopping cary icon-cart">Add to Cart</button>
+            <button class="buy__btn"  ><img class="cart__icon" src="/Icons/icon-cart.svg" alt="shopping cart">Add to Cart</button>
         </div>
         
 
