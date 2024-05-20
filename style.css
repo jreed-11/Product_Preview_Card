@@ -87,3 +87,34 @@ body {
   padding: 1.6rem 1.4rem;
   width: 100%;
 }
+
+/* Media Queries*/
+
+@media (min-width: 650px) {
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 60rem;
+  }
+
+  .pic-container,
+  .card-info-container {
+    max-width: 50%;
+  }
+
+  .card-info-container {
+    padding: 0 3.1rem;
+  }
+
+  .product__cat {
+    padding: 3.2rem 0 2rem 0;
+  }
+
+  .product-intro {
+    margin: 2.4rem 0 2.9rem 0;
+  }
+
+  .buy__btn {
+    margin: 3.2rem 0 3rem 0;
+  }
+}
