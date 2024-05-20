@@ -36,7 +36,7 @@ body {
 .product__cat {
   font-size: 1.2rem;
   letter-spacing: 0.4rem;
-  padding: 2.4rem 0 1.2rem 0;
+  padding: 2.2rem 0 1.2rem 0;
 }
 
 .product__heading,
@@ -84,6 +84,6 @@ body {
   color: #fff;
   font-weight: 700;
   margin: 2rem 0 2.4rem 0;
-  padding: 1.4rem;
+  padding: 1.6rem 1.4rem;
   width: 100%;
 }
