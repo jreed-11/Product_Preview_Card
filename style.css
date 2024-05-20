@@ -88,6 +88,10 @@ body {
   width: 100%;
 }
 
+.buy__btn:hover {
+  cursor: pointer;
+}
+
 /* Media Queries*/
 
 @media (min-width: 650px) {
@@ -116,5 +120,9 @@ body {
 
   .buy__btn {
     margin: 3.2rem 0 3rem 0;
+  }
+
+  .buy__btn:active {
+    background-color: #1a4032;
   }
 }
